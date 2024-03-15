@@ -20,7 +20,7 @@ class ComputersScreen extends StatelessWidget {
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              Text('Estás a punto de solicitar un préstamo para la computadora: ${computer.name}.'),
+              Text('Préstamo de computadora: ${computer.name}.'),
               SizedBox(height: 20),
               TextField(
                 controller: userNameController,
